@@ -2,7 +2,7 @@
 
 ---
 
-## 📚 Proje Hakkında
+##  Proje Hakkında
 
 Bu projede, modern derin öğrenme tabanlı üretici modellerden **StyleGAN2** mimarisi kullanılarak, iki farklı alan için (tıbbi: **beyin MR görüntüleri**, gündelik nesne: **sigara görselleri**) yapay (sentetik) görseller üretilmiştir. Projenin temel amacı, farklı veri türlerinin yapay görüntü üretimi üzerindeki etkisini göstermek, GAN tabanlı sentetik verinin avantajlarını ve kısıtlarını ortaya koymak, tıbbi ve nesne odaklı veri için deneysel sonuçları derinlemesine analiz etmektir.
 
@@ -14,7 +14,7 @@ Bu projede, modern derin öğrenme tabanlı üretici modellerden **StyleGAN2** m
 
 ---
 
-## 🔎 Kullanılan Yöntemler ve Temel Teknolojiler
+##  Kullanılan Yöntemler ve Temel Teknolojiler
 
 - **Model:** StyleGAN2 (NVIDIA tarafından geliştirilmiş, yüksek kaliteli görüntü sentezi için en güncel GAN mimarilerinden biri)
 - **Altyapı:** Python, TensorFlow 1.x, CUDA, RTX 4070 Ti Super GPU
@@ -28,7 +28,7 @@ Bu projede, modern derin öğrenme tabanlı üretici modellerden **StyleGAN2** m
 
 ---
 
-## 📁 Veri Setleri ve Hazırlık
+##  Veri Setleri ve Hazırlık
 
 ### **Beyin MR Görüntüleri**
 - Kaynak: [Kaggle - Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/datasets/orvile/brain-cancer-mri-dataset)
@@ -47,14 +47,14 @@ Bu projede, modern derin öğrenme tabanlı üretici modellerden **StyleGAN2** m
 
 ---
 
-## 🧠 GAN ve StyleGAN2 Kısa Bilgi
+##  GAN ve StyleGAN2 Kısa Bilgi
 
 - **GAN’lar (Üretici-Çekişmeli Ağlar):** Rastgele girdi (latent vektör) ile, gerçekçiliğe yakın sentetik görüntüler üretir. “Üretici” yeni görseller yaratır, “ayırt edici” ise bunların gerçek mi sahte mi olduğunu belirlemeye çalışır. Birbirlerine karşı rekabet ederler.
 - **StyleGAN2:** Bu mekanizmaya ek olarak stil vektörlerini çok katmanlı şekilde manipüle ederek, daha detaylı ve “doğal” görünen görüntüler üretebilir. Özellikle insan yüzü, tıbbi görüntü gibi alanlarda çığır açmıştır.
 
 ---
 
-## 🚀 Modelin Eğitimi ve Komutları
+##  Modelin Eğitimi ve Komutları
 
 ### **Temel Eğitim Komutları:**
 
