@@ -1,0 +1,2 @@
+# Synthetic-Image-Generation-with-StyleGAN2-A-Comparative-Study-on-Brain-MRI-and-Cigarette-Datasets
+Synthetic image generation project using StyleGAN2 on two different datasets: brain tumor MRI images and cigarette images. Includes data preparation, model training, evaluation with FID, and a detailed comparison of results for medical vs. everyday object domains. Turkish report and presentation included.
